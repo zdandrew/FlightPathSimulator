@@ -37,16 +37,3 @@ required us to explore how to interpret and process CSV data in the context of J
 libraries to codify certain properties of flights. One example of this is that we learned to use the LocalDateTime,
 LocalDate, and LocalTime classes to represent specific instances of time and make comparisons to determine which
 connecting flights could be taken when.
-
-Who did what / work breakdown:
-Jay: Wrote the code to populate / generate a graph representation of the flight data. Also wrote the code for the
-Dijkstra implementation to find the cheapest cost flight path. This code can all be found in the PathGenerator file
-and AirportNode file. Also produced this summary.txt file which gives an overview of all the work we did on this
-project.
-
-Andrew: Found the data set to use for our project. Wrote the code to translate the raw CSV flight data into functional
-objects that could interact with the rest of our code. This code can be found in the ReadCSV and Flight file. Worked on
-coming up with test cases and examples to ensure our implementation of ReadCSV and Path Generator were working correctly.
-Also responsible for generating the user manual with instructions for how our actual code works.
-
-Both Jay and Andrew: Worked on Main.java to take / parse user input and use it to run our code.
